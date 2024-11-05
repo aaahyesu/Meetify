@@ -32,3 +32,4 @@ app.use("/api/post-detail", postDetailRoutes);
 app.listen(PORT, () => {
   console.log(`[server]: Server is running at http://localhost:${PORT}`);
 });
+export default app;
